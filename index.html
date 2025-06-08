@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reinas del Tablero</title>
+  <style>
+    :root {
+      --color-primario: #f070a1; /* rosa fuerte */
+      --color-secundario: #ffd972; /* amarillo pastel */
+      --color-acento: #84c5f4; /* azul suave */
+      --color-fondo: #fff5f8; /* fondo general rosado muy claro */
+      --color-texto: #333;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: var(--color-fondo);
+      color: var(--color-texto);
+    }
+
+    header {
+      background-color: var(--color-primario);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: var(--color-acento);
+    }
+
+    nav a {
+      color: #222;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: var(--color-secundario);
+    }
+
+    .seccion {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .inicio {
+      background-color: #fce3ec;
+      text-align: center;
+    }
+
+    .quienes {
+      background-color: #fff0d2;
+    }
+
+    .clases {
+      background-color: #fff8e1;
+    }
+
+    .contacto {
+      background-color: #f6f9fc;
+    }
+
+    .footer {
+      background-color: var(--color-primario);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reinas del Tablero</h1>
+    <p>Donde las reinas mueven el mundo</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#clases">Clases</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio" class="seccion inicio">
+    <h2>Bienvenida</h2>
+    <p>Bienvenidas a <strong>Reinas del Tablero</strong>, la primera escuela de ajedrez femenino en Zaragoza. Aquí formamos, acompañamos y empoderamos a niñas y mujeres a través del ajedrez. Aprende, progresa y juega con nosotras.</p>
+  </section>
+
+  <section id="quienes" class="seccion quienes">
+    <h2>¿Quiénes somos?</h2>
+    <p>Soy <strong>Belén Miranda Herrera</strong> (Elo FIDE 2049, actual tercera de España en el Campeonato de España absoluto en categoria femenina)  apasionada del ajedrez con años de experiencia como jugadora y formadora.</p>
+    <p>Creemos en el potencial del ajedrez para transformar vidas y estamos decididos a fomentar el talento femenino desde Zaragoza hacia el mundo.</p>
+    <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <div style="text-align: center;">
+          <img src="belen.jpg" alt="Belén Miranda Herrera" style="width: 200px; border-radius: 50%;">
+          <p><strong>Belén Miranda</strong></p>
+        </div>
+    </div>
+      
+  </section>
+
+  <section id="clases" class="seccion clases">
+    <h2>Nuestras clases</h2>
+    <p>Ofrecemos formación personalizada para todos los niveles:</p>
+    <ul>
+      <li><strong>Iniciación:</strong> Aprende desde cero con una base sólida y divertida.</li>
+      <li><strong>Intermedio:</strong> Mejora tu comprensión estratégica y táctica.</li>
+      <li><strong>Avanzado:</strong> Preparación para torneos, repertorios, análisis y entrenamiento intensivo.</li>
+    </ul>
+    <p>Clases disponibles de forma <strong>online y presencial</strong>. Muy pronto publicaremos los horarios y modalidades. ¡Reserva tu plaza y empieza tu camino como reina del tablero!</p>
+  </section>
+
+  <section id="contacto" class="seccion contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o quieres apuntarte? Escríbenos sin compromiso:</p>
+    <p><a href="mailto:info@reinasdeltablero.com">info@reinasdeltablero.com</a></p>
+    <p>También puedes seguirnos en nuestras redes sociales para estar al día de nuestras actividades, torneos y novedades.</p>
+    <p>https://www.instagram.com/lasreinasdeltablero/</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Reinas del Tablero - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
